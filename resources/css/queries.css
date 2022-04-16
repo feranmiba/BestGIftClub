@@ -1,0 +1,86 @@
+
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+       .atima{
+        width: 100%;
+        padding-right: 20%;
+        padding-top: 2%;
+       }
+       .row { padding: 0 2%; }
+}
+
+
+/*small tablet to big tablet:from 768px to1023px*/
+@media only screen and (max-width:1023px) {
+    body { font-size: 18px;}
+    section { padding: 60px 0 }  
+    .long copy {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 40%;
+    }
+    .logo {
+        height: 80px;
+        width: auto;
+        float: left;
+        margin-top: 2%;
+    }
+    .contact form { width: 80%;}
+}
+
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width:767px) {
+    body { font-size: 16px;
+    position:relative}
+    section {padding: 30px 0; }
+    .row,
+    .atima { padding: 0 4%;
+    padding-right: 10% ;
+    margin-top: 5%;
+    width: 100%;
+}
+    .col { width: 100%;}
+    .main-nav {
+        margin-left: 80px;
+        margin-bottom: 20px;
+        /* float: left; */
+        width: 50%;
+        position: relative;
+    }
+    .main-nav li a:link,
+   main-nav li a:visited {
+    text-decoration: unset;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    background-color: #e67e22;
+    transition: 1s, border 1s, color 1s;
+    list-style-position: none ;
+    /* position: absolute; */
+    margin-left: 80px;
+    border-radius: 20px;
+    text-align: center;
+}
+main-nav li a:hover,
+main-nav li a:active {
+    background-color: #cf6d17;
+}
+    .logo {
+        height: 49px;
+        width: auto;
+        float: left;
+        margin: 0.5%;
+    }
+    * {
+        padding: 00.05%;
+        box-sizing: border-box;
+        padding-bottom: 00.05%;
+    }
+    
+}
+
+/*Small phones: from 0 to480px*/
+@media only screen and (max-width:480px) {
+    
+}
